@@ -1,0 +1,17 @@
+sqoop import \
+--connect jdbc:mysql://localhost/advertisement \
+--username hdoop \
+--password root1234 \
+--split-by id \
+--table ads --m 1 \
+--columns campaign_id, category, budget, cpm, cpc, cpa, target_device  \
+--hive-import \
+--hive-overwrite \
+--hive-database advertisement \
+--target-dir /user/hive/warehouse/advertisement/
+
+create external table if not exists user_feedback (campaign_id string, user_id string, request_id string, click integer, view integer, acquisition integer, auction_cpm double, auction_cpc double, auction_cpa double, target_age_range string, target_location string, target_gender string, target_income_bucket string, target_device_type string, campaign_start_time string, campaign_end_time string, user_action string, expenditure double, timestamp timestamp)
+row format delimited
+fields terminated by ‘,’
+stored as textfile
+location '/tmp/feedback' 

@@ -1,0 +1,1 @@
+*/10 * * * * python3 /home/hdoop/capstone/slot_budget_updater.py localhost root root1234 advertisement >> slot_budget_manager_logs.txt

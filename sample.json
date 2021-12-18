@@ -1,0 +1,28 @@
+{
+   "text":"isinlive Filter Replacement Washable Compatible Dyson V10 SV12 Cyclone Animal Absolute Total Clean Vacuum Cleaner",
+   "category":"Home & Kitchen",
+   "keywords":"home,kitchen,vacuums,floor",
+   "campaign_id":"62a7eb44-e877-11eb-a43c-0e087721c0e9",
+   "action":"New Campaign",
+   "target_gender":"All",
+   "target_age_range":{
+      "start":"0",
+      "end":"0"
+   },
+   "target_city":"Jaipur",
+   "target_state":"Rajasthan",
+   "target_country":"India",
+   "target_income_bucket":"All",
+   "target_device":"All",
+   "cpc":"0.00073",
+   "cpa":"0.0599",
+   "budget":600,
+   "date_range":{
+      "start":"2021-07-19",
+      "end":"2021-07-20"
+   },
+   "time_range":{
+      "start":"9:00:00",
+      "end":"17:00:00"
+   }
+}
